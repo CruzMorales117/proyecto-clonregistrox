@@ -1,0 +1,163 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main .div-main {
+    display: flex;
+    /* justify-content: center; 
+    align-items: center; */
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+main .div-main .section-ini {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .div-main .section-fin {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+main .div-main .section-fin .div-titulo {
+    font-size: 25px;
+}
+
+main .div-main .section-fin .div-subtitulo {
+    font-size: 25px;
+}
+
+main .div-main .section-fin .div-registro {
+    width: 300px;
+}
+
+main .div-main .section-fin .div-registro div {
+    text-align: center;
+}
+
+main .div-main .section-fin .div-registro .botton-registro-google {
+    border: 1px solid #eff3f4;
+    padding: 8px 20px 8px 20px;
+    width: 258px;
+    text-align: center;
+    border-radius: 100px;
+    color: #929292;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .div-main .section-fin .div-registro .botton-registro-google img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+main .div-main .section-fin .div-registro .botton-registro-apple {
+    margin-top: 6px;
+    border: 1px solid #eff3f4;
+    padding: 8px 20px 8px 20px;
+    width: 258px;
+    text-align: center;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .div-main .section-fin .div-registro .botton-registro-apple img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px
+}
+
+main .div-main .section-fin .div-registro .botton-crear-cuenta {
+    background: #1d9bf0;
+    padding: 8px 20px 8px 20px;
+    width: 258px;
+    text-align: center;
+    border-radius: 100px;
+    margin-bottom: 6px;
+    color: #ffffff;
+}
+
+main .div-main .section-fin .div-registro .botton-iniciar-sesion {
+    width: 258px;
+    border: 1px solid #eff3f4;
+    padding: 8px 8px 8px 8px;
+    border-radius: 100px;
+    color: #1a8cd8;
+}
+
+main .div-main .section-fin .div-registro .terminos {
+    text-align: left;
+    font-size: 11px;
+}
+
+main .div-main .section-fin .div-registro .botton-registro-google:hover {
+    background-color: #e6e6e6;
+}
+main .div-main .section-fin .div-registro .botton-registro-apple:hover {
+    background-color: #e6e6e6;
+}
+main .div-main .section-fin .div-registro .botton-crear-cuenta:hover {
+    background-color: #1a8cd8;
+}
+main .div-main .section-fin .div-registro .botton-iniciar-sesion:hover {
+    background-color: #e8f5fd;
+}
+
+.linea {
+    width: 140px;
+    height: 1px;
+    background-color: #eff3f4;
+}
+
+main .div-main .section-fin .div-registro .div-o {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #929292;
+}
+
+main .div-main .section-fin .div-registro .div-o h5 {
+    margin:  20px 15px 20px 15px;
+}
+
+footer .links-footer {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+
+footer .links-footer div {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer .links-footer div a {
+    color: black;
+}
+
+footer .links-footer div a:hover {
+    text-decoration:underline;
+}
+
+a {
+    text-decoration: none; /* Elimina las líneas de hipervínculos */
+}
